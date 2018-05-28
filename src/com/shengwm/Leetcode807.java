@@ -11,21 +11,11 @@ import java.util.Map;
  **/
 public class Leetcode807 {
     public static void main(String[] args) {
-        Map<String, String> map = new HashMap<>();
-        map.put("shengwm", "盛文明");
-        map.put("company", "上海 鼎视");
-        StringBuilder stringBuilder = new StringBuilder();
-        for (String key : map.keySet()) {
-            stringBuilder.append(String.format("%s=%s", key, map.get(key)));
-        }
-        System.out.println(stringBuilder.toString());
-
 
         int[][] grid = {{59,88,44},{3,18,38},{21,26,51}};
         int n = maxIncresaseKeepingSkyLine(grid);
 
         System.out.println(n);
-
     }
 
     public static  int maxIncresaseKeepingSkyLine(int[][] grid) {

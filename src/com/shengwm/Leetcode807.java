@@ -14,7 +14,7 @@ public class Leetcode807 {
 
         int[][] grid = {{59,88,44},{3,18,38},{21,26,51}};
         int n = maxIncresaseKeepingSkyLine(grid);
-
+        System.out.println(1/10);
         System.out.println(n);
     }
 
